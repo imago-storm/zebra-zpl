@@ -1,7 +1,11 @@
 package fr.w3blog.zpl;
 
+import fr.w3blog.zpl.constant.ZebraFont;
+import fr.w3blog.zpl.constant.ZebraPPP;
 import junit.framework.TestCase;
 import fr.w3blog.zpl.utils.ZplUtils;
+
+import java.util.Arrays;
 
 /**
  * Unit test for simple App.

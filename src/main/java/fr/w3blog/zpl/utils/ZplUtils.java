@@ -124,6 +124,9 @@ public class ZplUtils {
 			//We use ratio to converted (based on ratio used by Zebra Designer Tools)
 			array[0] = Math.round(fontSize * 4.16F);//Heigth
 			array[1] = Math.round(fontSize * 4.06F);//With
+		} else if (ZebraFont.ZEBRA_ZERO.equals(zebraFont) && ZebraPPP.DPI_203.equals(zebraPPP)) {
+			array[0] = Math.round(fontSize * 3.25F);
+			array[1] = Math.round(fontSize * 2.75F);
 		} else {
 			throw new UnsupportedOperationException("This PPP and this font are not yet supported. Please use ZebraAFontElement.");
 		}
